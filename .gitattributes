@@ -1,0 +1,7 @@
+# See https://github.com/github/linguist
+*.sh text eol=lf
+
+*.html linguist-vendored
+examples/site/** linguist-vendored
+src/*.ts linguist-detectable
+*.min.js linguist-generated
